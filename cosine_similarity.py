@@ -10,7 +10,7 @@ def post_text_embedding(
     content,
     language=None,
 ):
-    api = API(user_key="[your key here]", service_url='https://stage.rosette.com/rest/v1/')
+    api = API(user_key="[your key here]", service_url='https://api.rosette.com/rest/v1/')
     params = DocumentParameters()
     params["content"] = content
     params["language"] = language
